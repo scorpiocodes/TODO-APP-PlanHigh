@@ -1,0 +1,45 @@
+body {
+    background-image: url("../Images/bg.jpg");
+    margin: 0; padding: 0;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #6b92e8;
+}
+
+hr {
+    height: 4px;
+    background-color: #6b92e8;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    width: 40%;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, black , white, black);
+    padding: 40px;
+    margin: 10px auto;
+}
+
+.container ul li {
+    list-style-position: outside;
+    text-align: start;
+    width: 80%;
+    list-style-type: none;
+    font-size: large;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
